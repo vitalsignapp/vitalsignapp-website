@@ -31,7 +31,7 @@ hr { border-color: #888888; }
 
 .btn-primary:active, .btn-primary.active, .btn-primary:active:focus, .open .dropdown-toggle .btn-primary { background-image: none; }
 
-.btn-primary.disabled, .btn-primary.disabled:hover, .btn-primary.disabled:focus, .btn-primary.disabled:active:focus, .btn-primary.disabled:active, .btn-primary.disabled.active, .btn-primary[disabled], .btn-primary[disabled]:hover, .btn-primary[disabled]:focus, .btn-primary[disabled]:active:focus, .btn-primary[disabled]:active, .btn-primary[disabled].active, fieldset[disabled] .btn-primary, fieldset[disabled] .btn-primary:hover, fieldset[disabled] .btn-primary:focus, fieldset[disabled] .btn-primary:active:focus, fieldset[disabled] .btn-primary:active, fieldset[disabled] .btn-primary.active { background-color: #ffa726; border-color: #ffa726; }
+.btn-primary.disabled, .btn-primary.disabled:hover, .btn-primary.disabled:focus, .btn-primary.disabled:active:focus, .btn-primary.disabled:active, .btn-primary.disabled.active, .btn-primary[disabled], .btn-primary[disabled]:hover, .btn-primary[disabled]:focus, .btn-primary[disabled]:active:focus, .btn-primary[disabled]:active, .btn-primary.active[disabled], fieldset[disabled] .btn-primary, fieldset[disabled] .btn-primary:hover, fieldset[disabled] .btn-primary:focus, fieldset[disabled] .btn-primary:active:focus, fieldset[disabled] .btn-primary:active, fieldset[disabled] .btn-primary.active { background-color: #ffa726; border-color: #ffa726; }
 
 .btn-primary .badge { color: #ffa726; background-color: #000000; }
 
@@ -43,7 +43,7 @@ hr { border-color: #888888; }
 
 .btn-secondary:active, .btn-secondary.active, .btn-secondary:active:focus, .open .dropdown-toggle .btn-secondary { background-image: none; }
 
-.btn-secondary.disabled, .btn-secondary.disabled:hover, .btn-secondary.disabled:focus, .btn-secondary.disabled:active:focus, .btn-secondary.disabled:active, .btn-secondary.disabled.active, .btn-secondary[disabled], .btn-secondary[disabled]:hover, .btn-secondary[disabled]:focus, .btn-secondary[disabled]:active:focus, .btn-secondary[disabled]:active, .btn-secondary[disabled].active, fieldset[disabled] .btn-secondary, fieldset[disabled] .btn-secondary:hover, fieldset[disabled] .btn-secondary:focus, fieldset[disabled] .btn-secondary:active:focus, fieldset[disabled] .btn-secondary:active, fieldset[disabled] .btn-secondary.active { background-color: #fafafa; border-color: #009688; }
+.btn-secondary.disabled, .btn-secondary.disabled:hover, .btn-secondary.disabled:focus, .btn-secondary.disabled:active:focus, .btn-secondary.disabled:active, .btn-secondary.disabled.active, .btn-secondary[disabled], .btn-secondary[disabled]:hover, .btn-secondary[disabled]:focus, .btn-secondary[disabled]:active:focus, .btn-secondary[disabled]:active, .btn-secondary.active[disabled], fieldset[disabled] .btn-secondary, fieldset[disabled] .btn-secondary:hover, fieldset[disabled] .btn-secondary:focus, fieldset[disabled] .btn-secondary:active:focus, fieldset[disabled] .btn-secondary:active, fieldset[disabled] .btn-secondary.active { background-color: #fafafa; border-color: #009688; }
 
 .btn-secondary .badge { color: #fafafa; background-color: #009688; }
 
@@ -160,26 +160,4 @@ button.back-to-top.show { display: block; background: #fff; color: #009688; font
 button.back-to-top.show:active { box-shadow: 0px 4px 8px 2px rgba(0, 0, 0, 0.25); -webkit-box-shadow: 0px 4px 8px 2px rgba(0, 0, 0, 0.25); -moz-box-shadow: 0px 4px 8px 2px rgba(0, 0, 0, 0.25); }
 
 /* Only Extra Small devices (XS) */
-@media only screen and (max-width: 768px) { body { font-size: 16px; }
-  h1 { font-size: 26px; line-height: 36px; }
-  h2 { font-size: 24px; margin-top: 0px; }
-  h3 { font-size: 18px; line-height: 30px; }
-  .language-switch { display: none; }
-  .section { padding: 40px 0px; }
-  .section-banner { padding-bottom: 0px; }
-  .section-banner .logo { width: 280px; }
-  .section-banner .btn { margin-top: 10px; margin-bottom: 10px; }
-  .section-how .how-to-step .number { font-size: 40px; width: 10%; }
-  .section-how .how-to-step .content { width: 90%; }
-  .section-how .how-to-step .step-image { text-align: center; }
-  .section-how .step-2, .section-how .step-3, .section-how .step-4 { margin-top: 20px; }
-  .section-how .btn { margin-top: 30px; }
-  .section-opensource h3 { text-align: center; }
-  .section-opensource .contributors img { margin: 20px auto; }
-  .tutorial { margin-top: 40px; }
-  .tutorial .title h1 { margin-top: 0px; margin-bottom: 0px; }
-  .tutorial h2 { font-size: 20px; }
-  .tutorial .tutorial-patient h2 { font-size: 24px; }
-  .tutorial .logo { width: 280px; }
-  .tutorial .img-large { max-width: 100%; margin-left: -20px; }
-  .tutorial .img-small { max-width: 250px; margin-left: -20px; } }
+@media only screen and (max-width: 768px) { body { font-size: 16px; } h1 { font-size: 26px; line-height: 36px; } h2 { font-size: 24px; margin-top: 0px; } h3 { font-size: 18px; line-height: 30px; } .language-switch { display: none; } .section { padding: 40px 0px; } .section-banner { padding-bottom: 0px; } .section-banner .logo { width: 280px; } .section-banner .btn { margin-top: 10px; margin-bottom: 10px; } .section-how .how-to-step .number { font-size: 40px; width: 10%; } .section-how .how-to-step .content { width: 90%; } .section-how .how-to-step .step-image { text-align: center; } .section-how .step-2, .section-how .step-3, .section-how .step-4 { margin-top: 20px; } .section-how .btn { margin-top: 30px; } .section-opensource h3 { text-align: center; } .section-opensource .contributors img { margin: 20px auto; } .tutorial { margin-top: 40px; } .tutorial .title h1 { margin-top: 0px; margin-bottom: 0px; } .tutorial h2 { font-size: 20px; } .tutorial .tutorial-patient h2 { font-size: 24px; } .tutorial .logo { width: 280px; } .tutorial .img-large { max-width: 100%; margin-left: -20px; } .tutorial .img-small { max-width: 250px; margin-left: -20px; } }
